@@ -80,7 +80,7 @@ cd SystemCrafter-Bot
 
 # 2. Crie o arquivo .env a partir do modelo na raiz:
 cp .env.example .env
-# Edite o .env colocando sua chave: GEMINI_API_KEY=AIzaSy...
+# Edite o .env colocando sua chave: GEMINI_API_KEY=SUA-CHAVE-DE-API
 
 # 3. Suba todos os containers
 docker compose up --build -d

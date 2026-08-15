@@ -1,9 +1,43 @@
-node_modules
-.next
-out
-.git
-.env*.local
+# ==========================================
+# Frontend Docker Build Context Exclusions
+# ==========================================
+
+# Host dependencies and framework cache
+node_modules/
+.next/
+out/
+build/
+dist/
+.turbo/
+.vercel/
+
+# Version control
+.git/
+.github/
+.gitignore
+.dockerignore
+
+# Environment files
+.env
+.env.*
+*.env
+!*.env.example
+
+# Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
+
+# Documentation & tests
+README.md
+CLAUDE.md
+AGENTS.md
+src/lib/*.test.ts
+
+# IDE & OS
+.idea/
+.vscode/
 .DS_Store
+Thumbs.db

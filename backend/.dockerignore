@@ -1,5 +1,36 @@
+# ==========================================
+# Backend Docker Build Context Exclusions
+# ==========================================
+
+# Version control
+.git/
+.github/
+.gitignore
+.dockerignore
+
+# Build outputs & binaries
 bin/
+server
+*.exe
+*.test
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Storage runtime and workspace cache
 storage/workspaces/
-.git
-.env*.local
-coverage.out
+tests/unit/storage/
+
+# Environment files
+.env
+.env.*
+*.env
+!*.env.example
+
+# Documentation & IDE
+*.md
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

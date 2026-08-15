@@ -1,0 +1,37 @@
+# ==========================================
+# Backend Go .gitignore
+# ==========================================
+
+# Binaries and build outputs
+/bin/
+/server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test and coverage artifacts
+*.test
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Workspace and storage runtime
+/storage/workspaces/*
+!/storage/workspaces/.gitkeep
+/tests/unit/storage/workspaces/*
+!/tests/unit/storage/workspaces/.gitkeep
+
+# Environment variables
+.env
+.env.*
+*.env
+!*.env.example
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
