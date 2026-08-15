@@ -1,0 +1,5 @@
+bin/
+storage/workspaces/
+.git
+.env*.local
+coverage.out
