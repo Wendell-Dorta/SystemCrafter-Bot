@@ -1,0 +1,15 @@
+{
+  "workspaceId": "",
+  "repositoryName": "test-repo",
+  "analyzedFilesCount": 10,
+  "filteredFilesCount": 0,
+  "ignoredSensitiveFiles": null,
+  "detectedStack": null,
+  "riskScore": 20,
+  "riskLevel": "LOW",
+  "vulnerabilities": null,
+  "architectureSummary": "",
+  "mermaidDiagram": "",
+  "recommendations": null,
+  "createdAt": "0001-01-01T00:00:00Z"
+}
